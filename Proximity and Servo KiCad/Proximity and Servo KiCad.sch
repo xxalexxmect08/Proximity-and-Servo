@@ -530,4 +530,29 @@ Text Notes 5700 2750 0    50   ~ 0
 Echo
 Text Notes 5750 2850 0    50   ~ 0
 GND
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 5C8697DB
+P 7250 2650
+F 0 "M?" H 7581 2715 50  0000 L CNN
+F 1 "Motor_Servo" H 7581 2624 50  0000 L CNN
+F 2 "" H 7250 2460 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 7250 2460 50  0001 C CNN
+	1    7250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2650 6450 2650
+Wire Wire Line
+	6450 2650 6450 2550
+Connection ~ 6450 2550
+Wire Wire Line
+	6950 2750 6450 2750
+Wire Wire Line
+	6450 2750 6450 2850
+Connection ~ 6450 2850
+Text Label 6850 2550 0    50   ~ 0
+3
+Wire Wire Line
+	6850 2550 6950 2550
 $EndSCHEMATC
